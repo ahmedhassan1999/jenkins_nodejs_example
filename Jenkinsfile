@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                 docker build -t img .
+                sh ' docker build -t img . '
             }
         }
         
