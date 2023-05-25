@@ -4,11 +4,10 @@ pipeline {
     stage('Check node version') {
       steps {
     
-          sh 'node -v'
+            sh 'node -v'
           
         }
       }
     }
     
-  }
-}  
+  } 
